@@ -7,6 +7,7 @@
   <remote fetch="https://github.com" name="github"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/Igalia" name="igalia"/>
+  <remote fetch="https://github.com/obyknovenius" name="obyknovenius"/>
   <remote fetch="https://gitlab.com" name="gitlab"/>
   <remote fetch="http://code.qt.io/yocto" name="qt"/>
 
@@ -27,9 +28,9 @@
   <project remote="freescale" revision="master" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" revision="master" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
 
-  <project remote="igalia" revision="main" name="meta-webkit.git" path="sources/meta-webkit"/>
+  <project remote="obyknovenius" revision="skia" name="meta-webkit.git" path="sources/meta-webkit"/>
 
-  <project remote="igalia" revision="main" name="meta-wpe-image.git" path="sources/meta-wpe-image">
+  <project remote="obyknovenius" revision="skia" name="meta-wpe-image.git" path="sources/meta-wpe-image">
      <copyfile src="scripts/setup-environment" dest="setup-environment"/>
   </project>
 </manifest>
