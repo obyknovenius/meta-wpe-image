@@ -16,7 +16,7 @@
   <project remote="yocto" revision="nanbield" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="nanbield" name="meta-security" path="sources/meta-security"/>
 
-  <project remote="yocto" revision="nanbield" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
+  <project remote="obyknovenius" revision="nanbield-rpi5" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
   <project remote="yocto" revision="nanbield" name="meta-virtualization" path="sources/meta-virtualization"/>
 
   <project remote="github" revision="nanbield" name="kraj/meta-clang.git" path="sources/meta-clang"/>
